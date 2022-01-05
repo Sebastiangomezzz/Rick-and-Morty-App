@@ -1,0 +1,60 @@
+.filter-btn {
+  color: white;
+  background-color: rgb(33, 162, 190);
+  padding: 10px 40px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.filter-pagination-container {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 2auto;
+}
+
+.filter-pagination-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  background-color: rgb(33, 162, 190, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 25px 4px rgba(33, 162, 190, 0.8);
+}
+
+.filter-container h3 {
+  color: white;
+  margin-left: 10px;
+  padding: 5px 0 5px 0;
+  font-size: 1.5rem;
+}
+
+.filter-container input {
+  padding: 5px;
+  background-color: rgba(175, 229, 241, 0.9);
+  border-radius: 10px;
+  border: 1px solid rgb(85, 255, 0);
+  color: white;
+  box-shadow: 0 0 15px 4px rgba(85, 255, 0, 0.8);
+  margin: 10px;
+}
+.filter-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}

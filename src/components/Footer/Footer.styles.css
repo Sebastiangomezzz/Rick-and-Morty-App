@@ -1,0 +1,18 @@
+.footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  color: rgba(33, 162, 190, 0.8);
+  font-size: 25px;
+  background: rgba(33, 162, 190, 0.2);
+  margin-top: 25px;
+}
+
+.footer a {
+  margin: 15px;
+  color: rgba(33, 162, 190, 0.8);
+}

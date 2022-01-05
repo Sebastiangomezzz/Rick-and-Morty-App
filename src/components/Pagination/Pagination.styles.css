@@ -1,0 +1,15 @@
+.pagination {
+  background-color: rgb(33, 162, 190, 0.4);
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 25px 4px rgba(33, 162, 190, 0.8);
+}
+
+.pagination button {
+  color: white;
+  background-color: rgb(33, 162, 190);
+  padding: 10px 40px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-right: 10px;
+}

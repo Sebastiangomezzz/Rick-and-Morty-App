@@ -1,0 +1,70 @@
+.details-page {
+  background-image: url('../../images/vertical-night-sky-3c38e2irmokctrj1.jpg');
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.details-container {
+  background-repeat: repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  color: white;
+}
+
+.details-container a {
+  text-decoration-line: none;
+  color: white;
+  background-color: rgb(33, 162, 190);
+  padding: 20px 80px;
+  font-size: 2rem;
+  border-radius: 8px;
+}
+
+.details-container img {
+  height: 500px;
+  border-radius: 8px;
+  padding: 0;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(33, 162, 190);
+  width: 900px;
+  margin: 70px;
+  border-radius: 10px;
+  background-color: rgb(33, 162, 190, 0.3);
+  border: 3px solid rgb(85, 255, 0, 0.5);
+  box-shadow: 0 0 15px 4px rgba(85, 255, 0, 0.8);
+}
+
+.details-text {
+  margin-left: 45px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.details-text h1 {
+  font-size: 40px;
+}
+
+.details-text p {
+  margin-top: 20px;
+}
+
+.details-text strong {
+  color: rgb(214, 169, 19);
+  font-weight: bold;
+  font-size: 24px;
+}
